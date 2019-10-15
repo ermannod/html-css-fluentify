@@ -172,6 +172,7 @@ button,li,.tutor:hover {
   height: 50%;
   text-align: center;
   line-height: 1.5;
+  margin-top: 10px;
 }
 
 .content_cont h4{
