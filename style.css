@@ -1,0 +1,191 @@
+* {
+  margin:0;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+header,button {
+  color:white;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: #0D325A;
+
+}
+
+.container_header {
+  margin: auto;
+  width: 1300px;
+  height: 500px;
+  position: relative;
+}
+
+.container_header::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+nav {
+  height: 100px;
+}
+
+#nav_left {
+  width: 60%;
+  height: 100%;
+  float: left;
+  position: relative;
+}
+
+#nav_right {
+  width: 40%;
+  height: 100%;
+  float:right;
+}
+
+#nav_right div {
+  font-size: 10px;
+  text-align: right;
+  line-height: 100px;
+}
+
+#nav_left img {
+  padding: 31px 0;
+}
+
+.easy_access {
+  display: inline-block;
+  width: 80%;
+  float: right;
+  line-height: 100px;
+
+}
+
+#nav_left ul {
+  list-style-type: none;
+  display: inline;
+  margin-left: 10px;
+}
+
+#nav_left li {
+  display: inline;
+  font-size: 10px;
+  padding: 0 5px;
+}
+
+.login {
+  border: 1px solid white;
+  border-radius: 2px;
+  background-color: #0D325A;
+  padding: 6px 12px;
+  margin: 0 5px;
+}
+
+#green_button {
+  border: 1px solid #7FB802;
+  border-radius: 2px;
+  background-color: #7FB802;
+  padding: 6px 12px;
+}
+
+.tutor:not(button) {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+button,li,.tutor:hover {
+  cursor: pointer;
+}
+
+#jombo {
+  width: 50%;
+  position: relative;
+  top: 10%;
+  line-height: 1.5;
+
+}
+
+#jombo h1 {
+  text-transform: none;
+  font-size: 45px;
+}
+
+#jombo button {
+  margin-top: 20px;
+  padding: 12px 24px;
+}
+
+.headerpic {
+  width: 65%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+
+.catch_phrase {
+  text-align: center;
+  padding: 20px;
+  background-color: #f5f5f5;
+  margin: 0;
+}
+
+.catch_phrase h4 {
+  font-size: 26px;
+}
+
+.catch_phrase p {
+  color: #999;
+  margin-top: 20px;
+}
+
+.container_column {
+  margin: 0 10%;
+  height: 540px;
+}
+
+.column {
+  float: left;
+  width: 33.333%;
+  height: 540px;
+  background-color: white;
+  padding: 10px;
+}
+
+.pic_cont{
+  height: 50%;
+  position: relative;
+}
+
+.pic {
+  width: 80%;
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  width: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.content_cont {
+  height: 50%;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.content_cont h4{
+  color: #7FB802;
+  font-size: 20px;
+}
+
+.content_cont p{
+  color: #999;
+  font-size: 14px;
+}
+
+.content_cont hr{
+  width: 30px;
+  margin: 15px auto;
+  border: 1px solid #999;
+}
